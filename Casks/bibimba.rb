@@ -1,6 +1,6 @@
 cask "bibimba" do
-  version "1.6.0"
-  sha256 "6095ef273fa4eac886eead612220cad319375f5b4ead3e2f6d279e4b80515123"
+  version "1.6.1"
+  sha256 "3c471bc6566fa23c839557478eb84300f159c9c283cf2a6b8a5e71c67384801e"
 
   url "https://downloads.mamama.company/bibimba/downloads/#{version}/BiBimba-#{version}.dmg"
   name "BiBimba"
