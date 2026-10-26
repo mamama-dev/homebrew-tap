@@ -2,18 +2,22 @@
 
 Homebrew tap for mamama, inc. apps.
 
-## Install
+## Install BiBimba
 
 ```sh
-brew install --cask mamama-dev/tap/bibimba
+brew tap mamama-dev/tap
+brew trust mamama-dev/tap
+brew install --cask bibimba
 ```
+
+Homebrew 7 only loads casks from third-party taps you have trusted, which is what the `brew trust` line does.
 
 ## Update
 
+BiBimba updates itself through Sparkle, so this is optional:
+
 ```sh
-brew upgrade --cask mamama-dev/tap/bibimba
+brew upgrade --cask bibimba
 ```
 
-BiBimba also updates itself through Sparkle, so `brew upgrade` is optional.
-
-BiBimba is a paid app with a 7-day trial; the cask only installs it.
+BiBimba is a paid app with a 7-day trial. The cask only installs it.
